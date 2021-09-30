@@ -1,13 +1,13 @@
 package pratice;
 
 class Calculator{
-	public int left, right;
+    private int left, right;
      
     public void setOprands(int left, int right){
         this.left = left;
         this.right = right;
     }
-    public int _sum(){
+    private int _sum(){
         return this.left+this.right;
     }
     public void sumDecoPlus(){
